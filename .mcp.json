@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mempalace": {
+      "command": "docker",
+      "args": ["run", "-i", "--rm", "-v", "mempalace-data:/data", "mempalace"]
+    }
+  }
+}
